@@ -33,6 +33,9 @@ Ensure you have the following installed on your system:
     ```sh
     rosdep update
     rosdep install --from-paths src --ignore-src -r -y
+    pip install cv2
+    pip install mediapipe
+    pip install cv_bridge
     ```
 
 3. **Build the package:**
